@@ -1,0 +1,38 @@
+{
+  "id": "module-1-topic-6",
+  "title": "Prompt Engineering na prática",
+  "content": "## Introdução\n\nPrompt Engineering é a arte e ciência de comunicar efetivamente com modelos de linguagem para obter os melhores resultados. Com LLMs se tornando ferramentas essenciais para desenvolvedores, saber escrever bons prompts é uma skill crítica. Este tópico explora técnicas práticas e padrões comprovados.\n\n## Como escrever prompts que realmente geram boas respostas\n\n### Princípios Fundamentais\n\n**1. Seja Específico e Claro**\n\n❌ Ruim: \"Escreva código\"\n✅ Bom: \"Escreva uma função JavaScript que recebe um array de números e retorna a média, incluindo tratamento de arrays vazios\"\n\n**2. Forneça Contexto**\n\n```\nContexto: Estou criando um sistema de e-commerce\nTarefa: Crie uma função para calcular desconto progressivo\nRegras: \n- 5% para compras acima de R$ 100\n- 10% para compras acima de R$ 500\n- 15% para compras acima de R$ 1000\n```\n\n**3. Use Exemplos (Few-Shot Learning)**\n\n```\nTraduza os seguintes termos técnicos para português:\n\nInput: \"API\"\nOutput: \"Interface de Programação de Aplicações\"\n\nInput: \"Framework\"\nOutput: \"Estrutura de Desenvolvimento\"\n\nInput: \"Middleware\"\nOutput: ?\n```\n\n**4. Defina o Formato de Saída**\n\n```\nAnalise este código e retorne um JSON com:\n- problemas: array de problemas encontrados\n- severidade: \"alta\", \"média\" ou \"baixa\"\n- sugestões: array de sugestões de correção\n```\n\n**5. Use Personas e Papéis**\n\n```\nVocê é um desenvolvedor sênior especializado em React.\nRevise este componente e sugira melhorias de performance.\n```\n\n### Técnicas Avançadas\n\n**Chain of Thought (CoT)**:\n```\nPergunta: Se uma loja tem 23 maçãs e vende 8, quantas sobraram?\n\nPensamento passo a passo:\n1. Começamos com 23 maçãs\n2. Vendemos 8 maçãs\n3. Subtraímos: 23 - 8 = 15\n4. Resposta: 15 maçãs\n```\n\n**Zero-Shot vs Few-Shot**:\n- **Zero-Shot**: Apenas instrução, sem exemplos\n- **Few-Shot**: 1-5 exemplos para guiar o modelo\n- **Many-Shot**: Muitos exemplos (pode melhorar resultados)\n\n## Padrões de prompts para codar, debugar, documentar e aprender mais rápido\n\n### Padrões para Codar\n\n**1. Geração de Código com Especificações**\n\n```\nCrie uma função [nome] que:\n- Recebe: [parâmetros]\n- Retorna: [tipo de retorno]\n- Comportamento: [descrição]\n- Tratamento de erros: [como lidar]\n- Exemplo de uso: [exemplo]\n\nUse [linguagem/framework] e siga [padrões/estilo].\n```\n\n**2. Refatoração**\n\n```\nRefatore este código para:\n- Melhorar legibilidade\n- Aplicar princípios SOLID\n- Adicionar tratamento de erros\n- Incluir comentários JSDoc\n\n[Código aqui]\n```\n\n**3. Conversão de Código**\n\n```\nConverta este código [linguagem origem] para [linguagem destino],\nmantendo a mesma lógica e funcionalidade:\n\n[Código aqui]\n```\n\n### Padrões para Debugar\n\n**1. Análise de Erro**\n\n```\nAnalise este erro e explique:\n1. O que causou o erro\n2. Por que aconteceu\n3. Como corrigir\n4. Como prevenir no futuro\n\nErro: [mensagem de erro]\nCódigo: [código relevante]\nContexto: [informações adicionais]\n```\n\n**2. Debugging Passo a Passo**\n\n```\nEste código não está funcionando como esperado.\nExecute um debugging passo a passo:\n1. Identifique onde o problema pode estar\n2. Explique o que cada parte deveria fazer\n3. Sugira pontos de verificação (console.logs)\n4. Proponha correções\n\n[Código aqui]\n```\n\n### Padrões para Documentar\n\n**1. Gerar Documentação**\n\n```\nCrie documentação completa para esta função incluindo:\n- Descrição do propósito\n- Parâmetros (tipo, descrição, obrigatório/opcional)\n- Valor de retorno\n- Exceções que podem ser lançadas\n- Exemplos de uso\n- Notas importantes\n\n[Código da função]\n```\n\n**2. Comentários Inline**\n\n```\nAdicione comentários inline explicando:\n- A lógica de cada seção importante\n- Por que certas decisões foram tomadas\n- Complexidades ou otimizações\n- Referências a algoritmos ou padrões usados\n\n[Código aqui]\n```\n\n### Padrões para Aprender\n\n**1. Explicação de Conceitos**\n\n```\nExplique [conceito] como se eu fosse um [nível de conhecimento]:\n- Definição simples\n- Como funciona\n- Exemplos práticos\n- Quando usar\n- Armadilhas comuns\n- Recursos para aprender mais\n```\n\n**2. Comparação de Tecnologias**\n\n```\nCompare [Tecnologia A] vs [Tecnologia B] em:\n- Casos de uso ideais\n- Performance\n- Curva de aprendizado\n- Ecossistema\n- Quando escolher cada uma\n```\n\n**3. Tutoriais Passo a Passo**\n\n```\nCrie um tutorial passo a passo para [tarefa]:\n- Pré-requisitos\n- Passo 1: [descrição]\n- Passo 2: [descrição]\n- ...\n- Verificação final\n- Próximos passos\n```\n\n## Técnicas Especiais\n\n### 1. Prompt Templates\n\nCrie templates reutilizáveis:\n\n```javascript\nconst codeReviewTemplate = `\nRevise este código como um [nível] desenvolvedor [linguagem]:\n\nCódigo:\n{{code}}\n\nFoque em:\n- Qualidade do código\n- Performance\n- Segurança\n- Boas práticas\n- Possíveis bugs\n\nFormato de resposta: JSON com categorias e sugestões.\n`;\n\nfunction reviewCode(code, level = 'sênior', language = 'JavaScript') {\n    return codeReviewTemplate\n        .replace('{{code}}', code)\n        .replace('[nível]', level)\n        .replace('[linguagem]', language);\n}\n```\n\n### 2. Prompt Chaining\n\nQuebrar tarefas complexas em etapas:\n\n```\nEtapa 1: Analise este problema e quebre em subtarefas\nEtapa 2: Para cada subtarefa, gere código\nEtapa 3: Integre as soluções\nEtapa 4: Teste e valide\n```\n\n### 3. Iterative Refinement\n\n```\nVersão 1: Gere uma solução inicial\nVersão 2: Melhore considerando [feedback]\nVersão 3: Otimize para [critério específico]\n```\n\n## Armadilhas Comuns\n\n1. **Prompts muito vagos**: Resultados imprecisos\n2. **Contexto insuficiente**: Modelo não entende o objetivo\n3. **Instruções conflitantes**: Confunde o modelo\n4. **Formato não especificado**: Saída inconsistente\n5. **Não revisar e refinar**: Primeira tentativa pode não ser a melhor\n\n## Ferramentas Úteis\n\n- **Prompt Libraries**: Coleções de prompts testados\n- **Prompt Optimizers**: Ferramentas que melhoram prompts\n- **A/B Testing**: Testar variações de prompts\n- **Versionamento**: Manter histórico de prompts eficazes\n\n## Conclusão\n\nPrompt Engineering é uma skill que melhora com prática. Os melhores prompts são:\n\n- Específicos e claros\n- Bem contextualizados\n- Com exemplos quando necessário\n- Com formato de saída definido\n- Iterativamente refinados\n\nNo próximo tópico, exploraremos ferramentas de IA que podem acelerar significativamente seu trabalho como desenvolvedor!",
+  "resources": [
+    {
+      "type": "link",
+      "title": "OpenAI Prompt Engineering Guide",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "description": "Guia oficial de prompt engineering da OpenAI"
+    },
+    {
+      "type": "link",
+      "title": "Awesome ChatGPT Prompts",
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "description": "Coleção de prompts úteis e testados"
+    },
+    {
+      "type": "video",
+      "title": "Prompt Engineering - Full Course",
+      "url": "https://www.youtube.com/watch?v=ydjRYmM19DY",
+      "description": "Curso completo sobre prompt engineering"
+    },
+    {
+      "type": "link",
+      "title": "Prompt Engineering Patterns",
+      "url": "https://www.promptingguide.ai",
+      "description": "Guia completo de padrões e técnicas de prompt engineering"
+    },
+    {
+      "type": "code",
+      "title": "LangChain Prompt Templates",
+      "url": "https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/",
+      "description": "Biblioteca para criar e gerenciar templates de prompts"
+    }
+  ]
+}
+

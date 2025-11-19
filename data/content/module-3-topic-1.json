@@ -1,0 +1,19 @@
+{
+  "id": "module-3-topic-1",
+  "title": "Visão geral de MCP (Model Context Protocol)",
+  "content": "O Model Context Protocol (MCP) é um protocolo padronizado que está revolucionando a forma como LLMs interagem com sistemas externos e serviços.\n\n## O que é MCP?\n\nMCP é um protocolo aberto que permite que LLMs e agentes de IA se conectem de forma padronizada a:\n\n- APIs e serviços web\n- Bancos de dados\n- Sistemas internos de empresas\n- Ferramentas e utilitários\n\n## Por que MCP está Ganhando Tração?\n\n### Problema Anterior\n\nAntes do MCP, cada integração entre LLMs e serviços externos era customizada:\n\n- Código duplicado e não reutilizável\n- Falta de padronização\n- Dificuldade de manutenção\n- Complexidade crescente\n\n### Solução do MCP\n\nMCP resolve esses problemas oferecendo:\n\n✅ **Padronização**: Interface única para todas as integrações\n✅ **Reutilização**: Servidores MCP podem ser compartilhados\n✅ **Composição**: Múltiplos MCPs podem trabalhar juntos\n✅ **Manutenibilidade**: Código mais limpo e organizado\n\n## Como Funciona\n\n1. **MCP Server**: Expõe capacidades de um serviço via protocolo MCP\n2. **MCP Client**: LLM ou agente que consome o MCP Server\n3. **Protocolo**: Comunicação padronizada entre client e server\n\n## Casos de Uso\n\n- Conectar LLMs a CRMs e sistemas de vendas\n- Integrar com bancos de dados para consultas\n- Expor funcionalidades de aplicações via MCP\n- Criar ecossistemas de ferramentas interoperáveis",
+  "resources": [
+    {
+      "type": "link",
+      "title": "Documentação Oficial do MCP",
+      "url": "https://modelcontextprotocol.io",
+      "description": "Site oficial com documentação completa"
+    },
+    {
+      "type": "code",
+      "title": "Exemplo de MCP Server em JavaScript",
+      "description": "Código de exemplo para criar um servidor MCP"
+    }
+  ]
+}
+

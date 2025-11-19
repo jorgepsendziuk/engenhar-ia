@@ -1,0 +1,1902 @@
+{
+  "title": "Engenharia de Software em IA Aplicada",
+  "modules": [
+    {
+      "id": "module-1",
+      "number": 1,
+      "title": "Fundamentos de IA e LLMs para Programadores",
+      "units": [],
+      "topics": [
+        {
+          "id": "module-1-topic-1",
+          "title": "História e contexto da IA",
+          "subtopics": [
+            {
+              "id": "module-1-topic-1-subtopic-1",
+              "title": "De onde veio a primeira ideia de \"máquina inteligente\" na humanidade"
+            },
+            {
+              "id": "module-1-topic-1-subtopic-2",
+              "title": "Linha do tempo até chegarmos em ML, DL, LLMs e ferramentas atuais"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-2",
+          "title": "Introdução a LLMs (Large Language Models)",
+          "subtopics": [
+            {
+              "id": "module-1-topic-2-subtopic-1",
+              "title": "Revisão de ML, DL e AI para preparar o terreno"
+            },
+            {
+              "id": "module-1-topic-2-subtopic-2",
+              "title": "Como funcionam LLMs: transformers, embeddings, attention"
+            },
+            {
+              "id": "module-1-topic-2-subtopic-3",
+              "title": "Exemplos de LLMs: ChatGPT, Gemini e outros"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-3",
+          "title": "Fundamentos de Web Machine Learning",
+          "subtopics": [
+            {
+              "id": "module-1-topic-3-subtopic-1",
+              "title": "Diferença entre Machine Learning, Deep Learning e Inteligência Artificial"
+            },
+            {
+              "id": "module-1-topic-3-subtopic-2",
+              "title": "Como tensores funcionam e por que são a base dos modelos"
+            },
+            {
+              "id": "module-1-topic-3-subtopic-3",
+              "title": "Conceito de redes neurais e como elas aprendem"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-4",
+          "title": "Criando sua primeira IA do zero",
+          "subtopics": [
+            {
+              "id": "module-1-topic-4-subtopic-1",
+              "title": "Passo a passo para criar e treinar a primeira rede neural em JavaScript"
+            },
+            {
+              "id": "module-1-topic-4-subtopic-2",
+              "title": "Entender o ciclo completo: dados → treino → validação → inferência"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-5",
+          "title": "Projetos práticos com ML na Web",
+          "subtopics": [
+            {
+              "id": "module-1-topic-5-subtopic-1",
+              "title": "Usar ML com vídeo no browser (ex: detecção, tracking, filtros, etc.)"
+            },
+            {
+              "id": "module-1-topic-5-subtopic-2",
+              "title": "Aplicar ML em jogos (ex: bots inteligentes, assistentes, efeitos dinâmicos)"
+            },
+            {
+              "id": "module-1-topic-5-subtopic-3",
+              "title": "Introdução prática a Deep Learning em cenários reais"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-6",
+          "title": "Prompt Engineering na prática",
+          "subtopics": [
+            {
+              "id": "module-1-topic-6-subtopic-1",
+              "title": "Como escrever prompts que realmente geram boas respostas"
+            },
+            {
+              "id": "module-1-topic-6-subtopic-2",
+              "title": "Padrões de prompts para codar, debugar, documentar e aprender mais rápido"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-7",
+          "title": "Ferramentas de IA para acelerar sua vida como Dev",
+          "subtopics": [
+            {
+              "id": "module-1-topic-7-subtopic-1",
+              "title": "História e visão geral do Cursor"
+            },
+            {
+              "id": "module-1-topic-7-subtopic-2",
+              "title": "Comparando VSCode, Windsurf e Cursor"
+            },
+            {
+              "id": "module-1-topic-7-subtopic-3",
+              "title": "Como usar .cursor rules para deixar a IA \"do seu jeito\""
+            },
+            {
+              "id": "module-1-topic-7-subtopic-4",
+              "title": "Conceito de Vibe Coding e o case do levelsio (microSaaS com +100k/mês usando AI)"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-8",
+          "title": "MCPs e automação para devs",
+          "subtopics": [
+            {
+              "id": "module-1-topic-8-subtopic-1",
+              "title": "O que são MCPs (Model Context Protocol) e como conectam IA com APIs/serviços"
+            },
+            {
+              "id": "module-1-topic-8-subtopic-2",
+              "title": "Usando IA para: Gerar testes automatizados, Consultar documentações atualizadas, Navegar em sites e extrair informações"
+            },
+            {
+              "id": "module-1-topic-8-subtopic-3",
+              "title": "Ferramentas como N8N MCP e similares para orquestrar fluxos com IA"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-9",
+          "title": "RAG, embeddings e busca semântica",
+          "subtopics": [
+            {
+              "id": "module-1-topic-9-subtopic-1",
+              "title": "O que é RAG (Retrieval-Augmented Generation) e por que ele é tão importante"
+            },
+            {
+              "id": "module-1-topic-9-subtopic-2",
+              "title": "O que são embeddings e Vector Databases"
+            },
+            {
+              "id": "module-1-topic-9-subtopic-3",
+              "title": "Conceito de similarity search (busca por \"significado\", não só por texto exato)"
+            },
+            {
+              "id": "module-1-topic-9-subtopic-4",
+              "title": "Projeto: Criando o primeiro RAG com JavaScript e Postgres"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-10",
+          "title": "Modelos open-source vs. proprietários",
+          "subtopics": [
+            {
+              "id": "module-1-topic-10-subtopic-1",
+              "title": "Vantagens e desvantagens de modelos abertos e fechados"
+            },
+            {
+              "id": "module-1-topic-10-subtopic-2",
+              "title": "Como usar OpenRouter para orquestrar vários modelos"
+            },
+            {
+              "id": "module-1-topic-10-subtopic-3",
+              "title": "Como rodar modelos localmente com Ollama"
+            }
+          ]
+        },
+        {
+          "id": "module-1-topic-11",
+          "title": "Agents e automação avançada",
+          "subtopics": [
+            {
+              "id": "module-1-topic-11-subtopic-1",
+              "title": "O que são agentes de IA e como eles tomam decisões em etapas"
+            },
+            {
+              "id": "module-1-topic-11-subtopic-2",
+              "title": "Exemplos reais de agentes autônomos que escrevem código e aceleram o trabalho do dev"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "number": 2,
+      "title": "APIs de IA Generativa e Prompt Engineering",
+      "units": [],
+      "topics": [
+        {
+          "id": "module-2-topic-1",
+          "title": "Panorama do mercado de IA como serviço",
+          "subtopics": [
+            {
+              "id": "module-2-topic-1-subtopic-1",
+              "title": "Casos de empresas que são \"ChatGPT wrappers\" e levantaram milhões de dólares"
+            },
+            {
+              "id": "module-2-topic-1-subtopic-2",
+              "title": "Entendendo onde estão as oportunidades reais para devs e negócios"
+            }
+          ]
+        },
+        {
+          "id": "module-2-topic-2",
+          "title": "Principais provedores de modelos de IA",
+          "subtopics": [
+            {
+              "id": "module-2-topic-2-subtopic-1",
+              "title": "Visão geral de OpenAI, Anthropic, Hugging Face e Google Gemini"
+            },
+            {
+              "id": "module-2-topic-2-subtopic-2",
+              "title": "Diferenças de APIs, modelos e cenários de uso"
+            }
+          ]
+        },
+        {
+          "id": "module-2-topic-3",
+          "title": "Engenharia de prompts avançada",
+          "subtopics": [
+            {
+              "id": "module-2-topic-3-subtopic-1",
+              "title": "Prompt chaining (encadear prompts para tarefas complexas)"
+            },
+            {
+              "id": "module-2-topic-3-subtopic-2",
+              "title": "Prompt templates para padronizar fluxos e reutilizar prompts"
+            },
+            {
+              "id": "module-2-topic-3-subtopic-3",
+              "title": "Estratégias para reduzir alucinações e melhorar a precisão"
+            }
+          ]
+        },
+        {
+          "id": "module-2-topic-4",
+          "title": "Boas práticas de consistência e custo-eficiência",
+          "subtopics": [
+            {
+              "id": "module-2-topic-4-subtopic-1",
+              "title": "Como desenhar chamadas de API pensando em custo"
+            },
+            {
+              "id": "module-2-topic-4-subtopic-2",
+              "title": "Técnicas para cache, reuso de contexto e redução de tokens"
+            },
+            {
+              "id": "module-2-topic-4-subtopic-3",
+              "title": "Padrões para tornar o comportamento dos modelos mais previsível"
+            }
+          ]
+        },
+        {
+          "id": "module-2-topic-5",
+          "title": "RAG avançado na prática",
+          "subtopics": [
+            {
+              "id": "module-2-topic-5-subtopic-1",
+              "title": "Uso de LangChain, Pipes (ou similares) para orquestrar fluxos de IA"
+            },
+            {
+              "id": "module-2-topic-5-subtopic-2",
+              "title": "Estratégias de gerenciamento de erros e re-tentativas"
+            },
+            {
+              "id": "module-2-topic-5-subtopic-3",
+              "title": "Boas práticas de logging, observabilidade e depuração em apps de IA"
+            }
+          ]
+        },
+        {
+          "id": "module-2-topic-6",
+          "title": "Mão na massa: integrando IA ao back-end",
+          "subtopics": [
+            {
+              "id": "module-2-topic-6-subtopic-1",
+              "title": "Projeto: integrar um LLM da OpenAI a um back-end já existente"
+            },
+            {
+              "id": "module-2-topic-6-subtopic-2",
+              "title": "Fluxo de requisições, autenticação, versionamento e testes"
+            }
+          ]
+        },
+        {
+          "id": "module-2-topic-7",
+          "title": "Modelos multimodais (texto, imagem, áudio, vídeo)",
+          "subtopics": [
+            {
+              "id": "module-2-topic-7-subtopic-1",
+              "title": "Quando usar modelos de texto, imagem, áudio e vídeo"
+            },
+            {
+              "id": "module-2-topic-7-subtopic-2",
+              "title": "Visão geral de OpenAI Vision, Whisper, Gemini multimodal e outros"
+            }
+          ]
+        },
+        {
+          "id": "module-2-topic-8",
+          "title": "Aplicações práticas com foco em APIs",
+          "subtopics": [
+            {
+              "id": "module-2-topic-8-subtopic-1",
+              "title": "Construindo um OCR inteligente para extrair e entender documentos"
+            },
+            {
+              "id": "module-2-topic-8-subtopic-2",
+              "title": "Análise de mídia (imagem/vídeo) para insights e automações"
+            },
+            {
+              "id": "module-2-topic-8-subtopic-3",
+              "title": "Criação de bots multimodais que entendem texto, imagem, áudio e vídeo juntos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "number": 3,
+      "title": "MCP – Model Context Protocol",
+      "units": [],
+      "topics": [
+        {
+          "id": "module-3-topic-1",
+          "title": "Visão geral de MCP (Model Context Protocol)",
+          "subtopics": [
+            {
+              "id": "module-3-topic-1-subtopic-1",
+              "title": "O que é MCP e por que está ganhando tanta tração agora"
+            },
+            {
+              "id": "module-3-topic-1-subtopic-2",
+              "title": "Como ele resolve o caos de integrações customizadas entre LLMs e serviços"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-2",
+          "title": "Integração padronizada de LLMs com MCP",
+          "subtopics": [
+            {
+              "id": "module-3-topic-2-subtopic-1",
+              "title": "Como usar MCP para conectar LLMs a APIs, bancos de dados e serviços internos"
+            },
+            {
+              "id": "module-3-topic-2-subtopic-2",
+              "title": "Padronização de entrada/saída e contexto entre diferentes modelos e ferramentas"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-3",
+          "title": "MCPs vs Tools tradicionais",
+          "subtopics": [
+            {
+              "id": "module-3-topic-3-subtopic-1",
+              "title": "Diferença entre MCPs e o modelo clássico de \"tools/plugins\""
+            },
+            {
+              "id": "module-3-topic-3-subtopic-2",
+              "title": "Quando faz sentido usar MCP em vez de ferramentas proprietárias de cada provedor"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-4",
+          "title": "MCP em JavaScript",
+          "subtopics": [
+            {
+              "id": "module-3-topic-4-subtopic-1",
+              "title": "Como criar e consumir MCPs usando JavaScript/TypeScript"
+            },
+            {
+              "id": "module-3-topic-4-subtopic-2",
+              "title": "Boas práticas de organização de código e estrutura de projeto"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-5",
+          "title": "Transformando sua empresa em um \"MCP\"",
+          "subtopics": [
+            {
+              "id": "module-3-topic-5-subtopic-1",
+              "title": "Expor serviços internos (CRM, billing, suporte, dados de produto) via MCP"
+            },
+            {
+              "id": "module-3-topic-5-subtopic-2",
+              "title": "Desenhar uma camada de AI-ready para toda a stack da empresa"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-6",
+          "title": "Segurança e governança em MCPs",
+          "subtopics": [
+            {
+              "id": "module-3-topic-6-subtopic-1",
+              "title": "Autenticação e Service Tokens"
+            },
+            {
+              "id": "module-3-topic-6-subtopic-2",
+              "title": "Rate limiting para evitar abusos e custos inesperados"
+            },
+            {
+              "id": "module-3-topic-6-subtopic-3",
+              "title": "Web Application Firewall (WAF) e proteções para expor MCPs com segurança para LLMs e agentes"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-7",
+          "title": "Casos de uso reais em empresas",
+          "subtopics": [
+            {
+              "id": "module-3-topic-7-subtopic-1",
+              "title": "Como empresas usam MCPs para conectar IA a sistemas legados"
+            },
+            {
+              "id": "module-3-topic-7-subtopic-2",
+              "title": "Exemplos de automações, copilots internos e assistentes corporativos"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-8",
+          "title": "Cenários práticos de aplicação",
+          "subtopics": [
+            {
+              "id": "module-3-topic-8-subtopic-1",
+              "title": "Plugins e agentes inteligentes consumindo MCPs"
+            },
+            {
+              "id": "module-3-topic-8-subtopic-2",
+              "title": "Integrações com IDEs (copilots customizados)"
+            },
+            {
+              "id": "module-3-topic-8-subtopic-3",
+              "title": "Conexões com sistemas corporativos (ERP, CRM, suporte, analytics)"
+            }
+          ]
+        },
+        {
+          "id": "module-3-topic-9",
+          "title": "Hands-on: do zero ao MCP em produção",
+          "subtopics": [
+            {
+              "id": "module-3-topic-9-subtopic-1",
+              "title": "Criação de um MCP server do zero"
+            },
+            {
+              "id": "module-3-topic-9-subtopic-2",
+              "title": "Integração desse MCP com front-end (UI) e back-end"
+            },
+            {
+              "id": "module-3-topic-9-subtopic-3",
+              "title": "Testando o MCP em diferentes LLM clients e compondo com outros MCPs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "number": 4,
+      "title": "Criação de Agentes Autônomos",
+      "units": [
+        {
+          "id": "module-4-unit-1",
+          "title": "Arquitetura de Agents",
+          "topics": [
+            {
+              "id": "module-4-unit-1-topic-1",
+              "title": "Conceito de agent loop: percepção → raciocínio → ação → feedback"
+            },
+            {
+              "id": "module-4-unit-1-topic-2",
+              "title": "Estrutura interna: planner, executor, memory store, toolbox"
+            },
+            {
+              "id": "module-4-unit-1-topic-3",
+              "title": "Tipos de agentes: task-based, interactive, goal-oriented, autonomous"
+            },
+            {
+              "id": "module-4-unit-1-topic-4",
+              "title": "Componentização: prompts, ferramentas, contexto, e feedback loops"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-2",
+          "title": "Padrões de Raciocínio e Execução",
+          "topics": [
+            {
+              "id": "module-4-unit-2-topic-1",
+              "title": "ReAct Pattern: raciocínio + ação iterativa (reasoning traces)"
+            },
+            {
+              "id": "module-4-unit-2-topic-2",
+              "title": "Plan-and-Execute Pattern: decomposição de objetivos e execução estruturada"
+            },
+            {
+              "id": "module-4-unit-2-topic-3",
+              "title": "Reflection Pattern: autoavaliação e correção de comportamento"
+            },
+            {
+              "id": "module-4-unit-2-topic-4",
+              "title": "Comparativo prático entre ReAct e Plan-Execute em diferentes cenários"
+            },
+            {
+              "id": "module-4-unit-2-topic-5",
+              "title": "Implementações com LangChain, LangGraph e frameworks equivalentes"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-3",
+          "title": "Function Calling e Tool Use",
+          "topics": [
+            {
+              "id": "module-4-unit-3-topic-1",
+              "title": "Princípios de tool use e function calling em LLMs"
+            },
+            {
+              "id": "module-4-unit-3-topic-2",
+              "title": "Design de schemas JSON para funções executáveis"
+            },
+            {
+              "id": "module-4-unit-3-topic-3",
+              "title": "Conexão de agentes a APIs REST, bancos de dados, automações e MCPs"
+            },
+            {
+              "id": "module-4-unit-3-topic-4",
+              "title": "Implementação prática: agente que cria, executa e ajusta tarefas com ferramentas externas"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-4",
+          "title": "Memória e Reflexão em Agentes Autônomos",
+          "topics": [
+            {
+              "id": "module-4-unit-4-topic-1",
+              "title": "Tipos de memória: curta, longa, episódica e contextual"
+            },
+            {
+              "id": "module-4-unit-4-topic-2",
+              "title": "Estratégias de armazenamento e recuperação via embeddings"
+            },
+            {
+              "id": "module-4-unit-4-topic-3",
+              "title": "Reflection loops: como permitir que agentes revisem e melhorem sua própria lógica"
+            },
+            {
+              "id": "module-4-unit-4-topic-4",
+              "title": "Casos de uso: assistentes pessoais, debugging automatizado e aprendizado incremental"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-5",
+          "title": "Gerenciamento de Contextos",
+          "topics": [
+            {
+              "id": "module-4-unit-5-topic-1",
+              "title": "O que é um \"contexto ativo\" e como estruturá-lo"
+            },
+            {
+              "id": "module-4-unit-5-topic-2",
+              "title": "Técnicas de context pruning e context stitching"
+            },
+            {
+              "id": "module-4-unit-5-topic-3",
+              "title": "Contextos compartilhados entre múltiplos agentes"
+            },
+            {
+              "id": "module-4-unit-5-topic-4",
+              "title": "Balanceamento entre contexto global (memória coletiva) e local (memória individual)"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-6",
+          "title": "LangGraph e Workflows Complexos",
+          "topics": [
+            {
+              "id": "module-4-unit-6-topic-1",
+              "title": "Introdução ao LangGraph como orquestrador de fluxos multiagente"
+            },
+            {
+              "id": "module-4-unit-6-topic-2",
+              "title": "Criação de grafos de execução e controle de dependências"
+            },
+            {
+              "id": "module-4-unit-6-topic-3",
+              "title": "Roteamento de tarefas, fallback handlers e retry logic"
+            },
+            {
+              "id": "module-4-unit-6-topic-4",
+              "title": "Monitoramento e depuração de agentes conectados em grafos"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-7",
+          "title": "Observabilidade e Limites de Autonomia",
+          "topics": [
+            {
+              "id": "module-4-unit-7-topic-1",
+              "title": "Métricas e logs de execução de agentes"
+            },
+            {
+              "id": "module-4-unit-7-topic-2",
+              "title": "Auditoria e rastreabilidade de decisões autônomas"
+            },
+            {
+              "id": "module-4-unit-7-topic-3",
+              "title": "Implementação de guardrails e human-in-the-loop"
+            },
+            {
+              "id": "module-4-unit-7-topic-4",
+              "title": "Delimitação de escopo e ética na autonomia de agentes"
+            },
+            {
+              "id": "module-4-unit-7-topic-5",
+              "title": "Prevenção de runaway loops e abusos de API"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-8",
+          "title": "Projeto Prático: Agent que Automatiza Tarefas Complexas",
+          "topics": [
+            {
+              "id": "module-4-unit-8-topic-1",
+              "title": "Desenvolvimento de um agente autônomo completo, com: planejamento adaptativo; execução de tarefas via APIs externas; registro de logs e feedback loops; controle de contexto e memória persistente"
+            },
+            {
+              "id": "module-4-unit-8-topic-2",
+              "title": "Integração com LangGraph para orquestrar subtarefas"
+            },
+            {
+              "id": "module-4-unit-8-topic-3",
+              "title": "Apresentação e avaliação com base em métricas de eficácia, autonomia e resiliência"
+            }
+          ]
+        },
+        {
+          "id": "module-4-unit-9",
+          "title": "Multi-Agent Systems",
+          "topics": [
+            {
+              "id": "module-4-unit-9-topic-1",
+              "title": "Conceitos de colaboração entre agentes: orquestração, coordenação e negociação"
+            },
+            {
+              "id": "module-4-unit-9-topic-2",
+              "title": "Padrões: Supervisor, Hierarchical, Group Chat, Delegation e Consensus"
+            },
+            {
+              "id": "module-4-unit-9-topic-3",
+              "title": "Comunicação assíncrona e troca de mensagens"
+            },
+            {
+              "id": "module-4-unit-9-topic-4",
+              "title": "Implementação de um mini sistema multiagente cooperativo (ex.: analista → planejador → executor)"
+            },
+            {
+              "id": "module-4-unit-9-topic-5",
+              "title": "Casos reais: Claude Team, AutoGPTs, CrewAI, Agentarium (referência prática)"
+            }
+          ]
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "module-5",
+      "number": 5,
+      "title": "Ferramentas de IA para UX & UI",
+      "units": [
+        {
+          "id": "module-5-unit-1",
+          "title": "A Revolução da IA no Design e Desenvolvimento de Interfaces",
+          "topics": [
+            {
+              "id": "module-5-unit-1-topic-1",
+              "title": "Introdução ao conceito de AI-driven UX/UI"
+            },
+            {
+              "id": "module-5-unit-1-topic-2",
+              "title": "Panorama das ferramentas de IA para cada etapa do processo: pesquisa, ideação, prototipação, desenvolvimento e teste"
+            },
+            {
+              "id": "module-5-unit-1-topic-3",
+              "title": "Análise de casos de uso: como a IA está acelerando a criação de produtos digitais"
+            }
+          ]
+        },
+        {
+          "id": "module-5-unit-2",
+          "title": "Prototipação e Geração de UI com Inteligência Artificial",
+          "topics": [
+            {
+              "id": "module-5-unit-2-topic-1",
+              "title": "Geração de wireframes e mockups a partir de descrições em linguagem natural (Text-to-UI)"
+            },
+            {
+              "id": "module-5-unit-2-topic-2",
+              "title": "Ferramentas de prototipação visual assistida por IA"
+            },
+            {
+              "id": "module-5-unit-2-topic-3",
+              "title": "Mão na Massa: Utilizando o Firebase Studio para transformar designs do Figma em código front-end e analisar os resultados"
+            },
+            {
+              "id": "module-5-unit-2-topic-4",
+              "title": "Validação de usabilidade e fluxos de usuário com o auxílio de modelos de IA"
+            }
+          ]
+        },
+        {
+          "id": "module-5-unit-3",
+          "title": "Agentes de IA e CLI no Fluxo de Trabalho do Desenvolvedor Front-End",
+          "topics": [
+            {
+              "id": "module-5-unit-3-topic-1",
+              "title": "O que são agentes de codificação e como eles operam no ambiente de desenvolvimento"
+            },
+            {
+              "id": "module-5-unit-3-topic-2",
+              "title": "Utilizando o Gemini CLI para scaffolding de projetos, geração de componentes e refatoração de código"
+            },
+            {
+              "id": "module-5-unit-3-topic-3",
+              "title": "Definindo um fluxo de trabalho com agentes de IA: da ideia ao componente funcional e testável"
+            },
+            {
+              "id": "module-5-unit-3-topic-4",
+              "title": "Boas práticas para engenharia de prompt focada em geração de código (HTML, CSS, JavaScript/TypeScript)"
+            }
+          ]
+        },
+        {
+          "id": "module-5-unit-4",
+          "title": "Automação e Interação Inteligente com a UI",
+          "topics": [
+            {
+              "id": "module-5-unit-4-topic-1",
+              "title": "Automação de testes End-to-End (E2E) com agentes autônomos que consomem o MCP da aplicação"
+            },
+            {
+              "id": "module-5-unit-4-topic-2",
+              "title": "Discussão Prática: Utilizando uma ferramenta como o mcpui.dev para visualizar e interagir com o contexto exposto pela aplicação via MCP, facilitando a depuração e o desenvolvimento de agentes"
+            }
+          ]
+        },
+        {
+          "id": "module-5-unit-5",
+          "title": "Integração de Lógica de IA no Cliente e no Servidor",
+          "topics": [
+            {
+              "id": "module-5-unit-5-topic-1",
+              "title": "Consumindo APIs de IA diretamente do front-end: casos de uso e desafios de segurança"
+            },
+            {
+              "id": "module-5-unit-5-topic-2",
+              "title": "Utilizando Firebase AI Logic para criar, gerenciar e implantar backends customizados para aplicações front-end com lógica de IA embarcada"
+            },
+            {
+              "id": "module-5-unit-5-topic-3",
+              "title": "Desenvolvimento de features inteligentes: busca semântica, chatbots de suporte e personalização de conteúdo em tempo real"
+            },
+            {
+              "id": "module-5-unit-5-topic-4",
+              "title": "Mão na Massa: Construindo uma aplicação que utiliza lógica de IA hospedada no Firebase para processar inputs do usuário"
+            }
+          ]
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "module-6",
+      "number": 6,
+      "title": "Ferramentas de IA para DevOps",
+      "units": [
+        {
+          "id": "module-6-unit-1",
+          "title": "Fundamentos de IA Generativa para Infraestrutura",
+          "topics": [
+            {
+              "id": "module-6-unit-1-topic-1",
+              "title": "Arquitetura de Large Language Models (LLMs)"
+            },
+            {
+              "id": "module-6-unit-1-topic-2",
+              "title": "APIs de IA: OpenAI, Anthropic Claude, AWS Bedrock"
+            },
+            {
+              "id": "module-6-unit-1-topic-3",
+              "title": "Frameworks de agentes autônomos: LangChain, CrewAI, AutoGen"
+            },
+            {
+              "id": "module-6-unit-1-topic-4",
+              "title": "RAG (Retrieval-Augmented Generation) aplicado a documentação técnica"
+            },
+            {
+              "id": "module-6-unit-1-topic-5",
+              "title": "Padrões de prompting para tarefas de infraestrutura"
+            },
+            {
+              "id": "module-6-unit-1-topic-6",
+              "title": "Limitações, alucinações e estratégias de validação"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-2",
+          "title": "IaC Copilot: Geração Inteligente de Infraestrutura",
+          "topics": [
+            {
+              "id": "module-6-unit-2-topic-1",
+              "title": "Tradução de linguagem natural para Infrastructure as Code"
+            },
+            {
+              "id": "module-6-unit-2-topic-2",
+              "title": "Geração automatizada de Terraform, Pulumi e Helm Charts"
+            },
+            {
+              "id": "module-6-unit-2-topic-3",
+              "title": "Validação automatizada: terraform plan, terraform validate"
+            },
+            {
+              "id": "module-6-unit-2-topic-4",
+              "title": "Policy-as-Code com OPA (Open Policy Agent) e Sentinel"
+            },
+            {
+              "id": "module-6-unit-2-topic-5",
+              "title": "Workflow PR-first com revisão assistida por IA"
+            },
+            {
+              "id": "module-6-unit-2-topic-6",
+              "title": "Detecção de drift de infraestrutura e sugestões de correção"
+            },
+            {
+              "id": "module-6-unit-2-topic-7",
+              "title": "Prática 1: Desenvolvimento de copilot para geração de módulos Terraform validados"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-3",
+          "title": "Agentes para Kubernetes: Deploy e Operação",
+          "topics": [
+            {
+              "id": "module-6-unit-3-topic-1",
+              "title": "Geração e ajuste de manifests YAML via processamento de linguagem natural"
+            },
+            {
+              "id": "module-6-unit-3-topic-2",
+              "title": "Configuração inteligente de HorizontalPodAutoscaler (HPA) e VerticalPodAutoscaler (VPA)"
+            },
+            {
+              "id": "module-6-unit-3-topic-3",
+              "title": "Autoscaling baseado em workload e métricas customizadas"
+            },
+            {
+              "id": "module-6-unit-3-topic-4",
+              "title": "Gerenciamento automatizado de Ingress, Services e Network Policies"
+            },
+            {
+              "id": "module-6-unit-3-topic-5",
+              "title": "Estratégias de rollout/rollback guiadas por IA (canary, blue-green, progressive delivery)"
+            },
+            {
+              "id": "module-6-unit-3-topic-6",
+              "title": "Integração com GitOps: Argo CD e Flux"
+            },
+            {
+              "id": "module-6-unit-3-topic-7",
+              "title": "Prática 2: Agente para deployment end-to-end com validação de readiness"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-4",
+          "title": "Troubleshooting Assistido e Diagnóstico Inteligente",
+          "topics": [
+            {
+              "id": "module-6-unit-4-topic-1",
+              "title": "Framework ReAct (Reasoning + Acting) para troubleshooting estruturado"
+            },
+            {
+              "id": "module-6-unit-4-topic-2",
+              "title": "Diagnóstico automatizado de erros comuns em Kubernetes - CrashLoopBackOff, ImagePullBackOff, OOMKilled"
+            },
+            {
+              "id": "module-6-unit-4-topic-3",
+              "title": "Análise inteligente de logs distribuídos e stack traces"
+            },
+            {
+              "id": "module-6-unit-4-topic-4",
+              "title": "Correlação de traces (Jaeger, Zipkin) e métricas para root cause analysis"
+            },
+            {
+              "id": "module-6-unit-4-topic-5",
+              "title": "Detecção de latência, erros 5xx e degradação de performance"
+            },
+            {
+              "id": "module-6-unit-4-topic-6",
+              "title": "Sugestão automatizada de fixes e remediações"
+            },
+            {
+              "id": "module-6-unit-4-topic-7",
+              "title": "Prática 3: Sistema de diagnóstico automático de problemas em pods"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-5",
+          "title": "AIOps e Observabilidade Inteligente",
+          "topics": [
+            {
+              "id": "module-6-unit-5-topic-1",
+              "title": "Geração de queries PromQL e LogQL a partir de linguagem natural"
+            },
+            {
+              "id": "module-6-unit-5-topic-2",
+              "title": "Criação automatizada de dashboards Grafana contextualizados"
+            },
+            {
+              "id": "module-6-unit-5-topic-3",
+              "title": "Detecção de anomalias com Machine Learning (Prophet, Isolation Forest)"
+            },
+            {
+              "id": "module-6-unit-5-topic-4",
+              "title": "Correlação inteligente entre métricas, logs e traces"
+            },
+            {
+              "id": "module-6-unit-5-topic-5",
+              "title": "Alertas preditivos e redução de falsos positivos"
+            },
+            {
+              "id": "module-6-unit-5-topic-6",
+              "title": "Análise de tendências e forecasting de recursos"
+            },
+            {
+              "id": "module-6-unit-5-topic-7",
+              "title": "Prática 4: Dashboard inteligente com detecção de anomalias em tempo real"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-6",
+          "title": "ChatOps com Aprovação Humana e Governança",
+          "topics": [
+            {
+              "id": "module-6-unit-6-topic-1",
+              "title": "Arquitetura de bots conversacionais para Slack, Discord e Microsoft Teams"
+            },
+            {
+              "id": "module-6-unit-6-topic-2",
+              "title": "Implementação de comandos seguros: /deploy, /scale, /rollback, /investigar"
+            },
+            {
+              "id": "module-6-unit-6-topic-3",
+              "title": "Visualização de diffs e análise de impacto de mudanças"
+            },
+            {
+              "id": "module-6-unit-6-topic-4",
+              "title": "Workflows de aprovação com guardrails e circuit breakers"
+            },
+            {
+              "id": "module-6-unit-6-topic-5",
+              "title": "Integração com RBAC (Role-Based Access Control)"
+            },
+            {
+              "id": "module-6-unit-6-topic-6",
+              "title": "Auditoria e rastreabilidade de ações executadas"
+            },
+            {
+              "id": "module-6-unit-6-topic-7",
+              "title": "Prática 5: Bot de ChatOps com fluxo de aprovação para deploys"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-7",
+          "title": "Segurança e Compliance Assistidos por IA",
+          "topics": [
+            {
+              "id": "module-6-unit-7-topic-1",
+              "title": "Scan automatizado de IaC e containers (Snyk, Trivy, Checkov)"
+            },
+            {
+              "id": "module-6-unit-7-topic-2",
+              "title": "\"AI fix\" automático de vulnerabilidades detectadas"
+            },
+            {
+              "id": "module-6-unit-7-topic-3",
+              "title": "Detecção e prevenção de vazamento de secrets"
+            },
+            {
+              "id": "module-6-unit-7-topic-4",
+              "title": "Explicação de políticas OPA em linguagem natural"
+            },
+            {
+              "id": "module-6-unit-7-topic-5",
+              "title": "Remediação guiada de CVEs e vulnerabilidades críticas"
+            },
+            {
+              "id": "module-6-unit-7-topic-6",
+              "title": "Geração de relatórios de compliance (SOC2, ISO 27001, PCI-DSS)"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-8",
+          "title": "CI/CD Copilot e Pipelines Inteligentes",
+          "topics": [
+            {
+              "id": "module-6-unit-8-topic-1",
+              "title": "Geração automatizada de pipelines (GitLab CI, GitHub Actions, Jenkins)"
+            },
+            {
+              "id": "module-6-unit-8-topic-2",
+              "title": "Gates inteligentes: testes automatizados, SAST, DAST, dependency scanning"
+            },
+            {
+              "id": "module-6-unit-8-topic-3",
+              "title": "Análise de impacto de mudanças em Pull Requests"
+            },
+            {
+              "id": "module-6-unit-8-topic-4",
+              "title": "Recomendações de estratégias de deployment (canary, blue-green)"
+            },
+            {
+              "id": "module-6-unit-8-topic-5",
+              "title": "Otimização de tempo de build e cache inteligente"
+            },
+            {
+              "id": "module-6-unit-8-topic-6",
+              "title": "Rollback automático baseado em métricas de qualidade"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-9",
+          "title": "FinOps e Otimização de Custos com IA",
+          "topics": [
+            {
+              "id": "module-6-unit-9-topic-1",
+              "title": "Estimativa de custos em Pull Requests com Infracost"
+            },
+            {
+              "id": "module-6-unit-9-topic-2",
+              "title": "Rightsizing de pods e nodes baseado em histórico de uso"
+            },
+            {
+              "id": "module-6-unit-9-topic-3",
+              "title": "Recomendações de instâncias spot e reservadas"
+            },
+            {
+              "id": "module-6-unit-9-topic-4",
+              "title": "Detecção de recursos ociosos e \"zombie resources\""
+            },
+            {
+              "id": "module-6-unit-9-topic-5",
+              "title": "Forecasting de custos com Machine Learning"
+            },
+            {
+              "id": "module-6-unit-9-topic-6",
+              "title": "Otimização de armazenamento e networking"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-10",
+          "title": "RAG de Runbooks e Post-mortem Automático",
+          "topics": [
+            {
+              "id": "module-6-unit-10-topic-1",
+              "title": "Arquitetura de RAG para documentação técnica interna"
+            },
+            {
+              "id": "module-6-unit-10-topic-2",
+              "title": "Indexação de playbooks, READMEs e wikis corporativos"
+            },
+            {
+              "id": "module-6-unit-10-topic-3",
+              "title": "Agente que consulta e executa runbooks automaticamente"
+            },
+            {
+              "id": "module-6-unit-10-topic-4",
+              "title": "Geração automática de timelines de incidentes"
+            },
+            {
+              "id": "module-6-unit-10-topic-5",
+              "title": "Extração de lições aprendidas (lessons learned)"
+            },
+            {
+              "id": "module-6-unit-10-topic-5",
+              "title": "Templates de post-mortem blameless automatizados"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-11",
+          "title": "Auto-Remediação Segura com Guardrails",
+          "topics": [
+            {
+              "id": "module-6-unit-11-topic-1",
+              "title": "Playbooks acionados automaticamente por alertas"
+            },
+            {
+              "id": "module-6-unit-11-topic-2",
+              "title": "Fluxo: alerta → verificação → mitigação → validação"
+            },
+            {
+              "id": "module-6-unit-11-topic-3",
+              "title": "Canary automático com rollback inteligente"
+            },
+            {
+              "id": "module-6-unit-11-topic-4",
+              "title": "Circuit breakers e rate limiting em ações automatizadas"
+            },
+            {
+              "id": "module-6-unit-11-topic-5",
+              "title": "Simulação (dry-run) antes de execução em produção"
+            },
+            {
+              "id": "module-6-unit-11-topic-6",
+              "title": "Human-in-the-loop para ações críticas e de alto impacto"
+            }
+          ]
+        },
+        {
+          "id": "module-6-unit-12",
+          "title": "Projeto Integrador e Casos Práticos",
+          "topics": [
+            {
+              "id": "module-6-unit-12-topic-1",
+              "title": "Desenvolvimento de agente ou copilot completo"
+            },
+            {
+              "id": "module-6-unit-12-topic-2",
+              "title": "Integração de múltiplos componentes (IaC + K8s + Observability)"
+            },
+            {
+              "id": "module-6-unit-12-topic-3",
+              "title": "Implementação de guardrails e políticas de segurança"
+            },
+            {
+              "id": "module-6-unit-12-topic-4",
+              "title": "Testes de validação e simulação de cenários reais"
+            },
+            {
+              "id": "module-6-unit-12-topic-5",
+              "title": "Apresentação de projetos e discussão de resultados"
+            },
+            {
+              "id": "module-6-unit-12-topic-6",
+              "title": "Análise de viabilidade, ROI e melhores práticas"
+            }
+          ]
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "module-7",
+      "number": 7,
+      "title": "Ferramentas de IA para Gestão de projetos",
+      "units": [
+        {
+          "id": "module-7-unit-1",
+          "title": "Planejamento e Escopo com IA (Requirements Copilot)",
+          "topics": [
+            {
+              "id": "module-7-unit-1-topic-1",
+              "title": "Aplicar ferramentas de IA para apoiar o levantamento e a definição de requisitos de software"
+            },
+            {
+              "id": "module-7-unit-1-topic-2",
+              "title": "Converter descrições em linguagem natural (NL) em épicos, histórias de usuário e requisitos de mudança"
+            },
+            {
+              "id": "module-7-unit-1-topic-3",
+              "title": "Realizar a decomposição de tarefas e definição de critérios de aceite com suporte de modelos generativos"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-2",
+          "title": "Priorização Inteligente de Backlog",
+          "topics": [
+            {
+              "id": "module-7-unit-2-topic-1",
+              "title": "Utilizar técnicas e frameworks de priorização (RICE, WSJF, MoSCoW) com suporte de IA"
+            },
+            {
+              "id": "module-7-unit-2-topic-2",
+              "title": "Simular impacto de funcionalidades e gerar sugestões automáticas de roadmap"
+            },
+            {
+              "id": "module-7-unit-2-topic-3",
+              "title": "Aplicar critérios de pontuação inteligente para refino de backlog"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-3",
+          "title": "Cronograma, Capacidade e Alocação Assistidos",
+          "topics": [
+            {
+              "id": "module-7-unit-3-topic-1",
+              "title": "Empregar IA para criação dinâmica de cronogramas e identificação de dependências entre tarefas"
+            },
+            {
+              "id": "module-7-unit-3-topic-2",
+              "title": "Analisar cenários \"what-if\" e realizar balanceamento de capacidade da equipe"
+            },
+            {
+              "id": "module-7-unit-3-topic-3",
+              "title": "Automatizar ajustes de cronograma com base em previsões de carga e restrições operacionais"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-4",
+          "title": "Estimativas e Previsões",
+          "topics": [
+            {
+              "id": "module-7-unit-4-topic-1",
+              "title": "Aplicar técnicas de previsão de prazos, custos e esforço baseadas em IA"
+            },
+            {
+              "id": "module-7-unit-4-topic-2",
+              "title": "Analisar dados históricos para melhoria da acurácia de estimativas"
+            },
+            {
+              "id": "module-7-unit-4-topic-3",
+              "title": "Empregar simulações probabilísticas (ex.: Monte Carlo) para análise de incertezas"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-5",
+          "title": "Riscos e Mitigações com AIOps de Projeto",
+          "topics": [
+            {
+              "id": "module-7-unit-5-topic-1",
+              "title": "Utilizar técnicas de AIOps para detecção automática de riscos de escopo, cronograma e recursos"
+            },
+            {
+              "id": "module-7-unit-5-topic-2",
+              "title": "Analisar padrões e anomalias em dados de projetos para prever falhas e gargalos"
+            },
+            {
+              "id": "module-7-unit-5-topic-3",
+              "title": "Gerar planos de mitigação automatizados com base em dados históricos e heurísticas"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-6",
+          "title": "Reuniões Turbinadas (Notas, AIs, Follow-ups)",
+          "topics": [
+            {
+              "id": "module-7-unit-6-topic-1",
+              "title": "Aplicar modelos de IA para transcrever e resumir reuniões de equipe"
+            },
+            {
+              "id": "module-7-unit-6-topic-2",
+              "title": "Identificar decisões, pendências e ações a partir de conversas em linguagem natural"
+            },
+            {
+              "id": "module-7-unit-6-topic-3",
+              "title": "Integrar soluções de IA a calendários e boards de projeto"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-7",
+          "title": "Status Reports e Executive Summaries",
+          "topics": [
+            {
+              "id": "module-7-unit-7-topic-1",
+              "title": "Automatizar a geração de relatórios de sprint, projeto e portfólio com IA"
+            },
+            {
+              "id": "module-7-unit-7-topic-2",
+              "title": "Adaptar comunicações para diferentes públicos (técnico, gestor, diretoria)"
+            },
+            {
+              "id": "module-7-unit-7-topic-3",
+              "title": "Consolidar dados de desempenho e produtividade em relatórios em linguagem natural"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-8",
+          "title": "Governança, Compliance e Qualidade",
+          "topics": [
+            {
+              "id": "module-7-unit-8-topic-1",
+              "title": "Aplicar IA para verificação de conformidade e rastreabilidade em projetos"
+            },
+            {
+              "id": "module-7-unit-8-topic-2",
+              "title": "Criar checklists automatizados e trilhas de decisão para auditorias internas"
+            },
+            {
+              "id": "module-7-unit-8-topic-3",
+              "title": "Automatizar a geração e controle de documentação de qualidade"
+            },
+            {
+              "id": "module-7-unit-8-topic-4",
+              "title": "Implementar verificações automáticas em JavaScript para auditoria e controle de versões"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-9",
+          "title": "Automação em Jira/Asana/Trello/Notion/Slack",
+          "topics": [
+            {
+              "id": "module-7-unit-9-topic-1",
+              "title": "Criar automações inteligentes integradas a plataformas de gestão e colaboração"
+            },
+            {
+              "id": "module-7-unit-9-topic-2",
+              "title": "Desenvolver bots em JavaScript para criação, atualização e priorização de cards e tarefas"
+            },
+            {
+              "id": "module-7-unit-9-topic-3",
+              "title": "Utilizar linguagem natural (NL → workflow) para geração e aprovação de atividades"
+            },
+            {
+              "id": "module-7-unit-9-topic-4",
+              "title": "Aplicar regras de negócio automatizadas para lembretes, notificações e aprovações"
+            }
+          ]
+        },
+        {
+          "id": "module-7-unit-10",
+          "title": "Portfólio e OKRs com IA",
+          "topics": [
+            {
+              "id": "module-7-unit-10-topic-1",
+              "title": "Aplicar IA para alinhamento de projetos com objetivos e resultados-chave (OKRs)"
+            },
+            {
+              "id": "module-7-unit-10-topic-2",
+              "title": "Analisar métricas de outcome e priorizar iniciativas em portfólios corporativos"
+            },
+            {
+              "id": "module-7-unit-10-topic-3",
+              "title": "Avaliar impacto de projetos e propor ajustes baseados em dados"
+            }
+          ]
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "module-8",
+      "number": 8,
+      "title": "Arquitetura de Sistemas com IA",
+      "units": [
+        {
+          "id": "module-8-unit-1",
+          "title": "Fundamentos de Arquitetura AI-First",
+          "topics": [
+            {
+              "id": "module-8-unit-1-topic-1",
+              "title": "Compreender as diferenças entre arquiteturas tradicionais e arquiteturas orientadas por Inteligência Artificial (AI-driven)"
+            },
+            {
+              "id": "module-8-unit-1-topic-2",
+              "title": "Analisar os cinco principais padrões de design em sistemas inteligentes: Prompting, Responsible AI, UX, AI-Ops e Optimization"
+            },
+            {
+              "id": "module-8-unit-1-topic-3",
+              "title": "Aplicar um decision framework para identificar quando utilizar IA versus regras determinísticas tradicionais"
+            },
+            {
+              "id": "module-8-unit-1-topic-4",
+              "title": "Discutir trade-offs entre latência, precisão, custo e performance"
+            }
+          ]
+        },
+        {
+          "id": "module-8-unit-2",
+          "title": "Arquiteturas Single-Agent",
+          "topics": [
+            {
+              "id": "module-8-unit-2-topic-1",
+              "title": "Compreender o conceito de agentes autônomos e seu papel em fluxos lineares de decisão"
+            },
+            {
+              "id": "module-8-unit-2-topic-2",
+              "title": "Analisar padrões de agente: Reactive, Memory-Enhanced, Tool-Using, ReAct e Self-Reflection"
+            },
+            {
+              "id": "module-8-unit-2-topic-3",
+              "title": "Identificar contextos ideais de aplicação (tarefas curtas, orçamentos limitados, baixa latência)"
+            },
+            {
+              "id": "module-8-unit-2-topic-4",
+              "title": "Desenvolver protótipos de agentes simples em JavaScript integrando APIs de IA generativa"
+            },
+            {
+              "id": "module-8-unit-2-topic-5",
+              "title": "Simular interações entre o agente e usuários em ambientes de software reais"
+            }
+          ]
+        },
+        {
+          "id": "module-8-unit-3",
+          "title": "Arquiteturas Multi-Agent",
+          "topics": [
+            {
+              "id": "module-8-unit-3-topic-1",
+              "title": "Entender o papel da colaboração entre agentes e sua importância em sistemas complexos"
+            },
+            {
+              "id": "module-8-unit-3-topic-2",
+              "title": "Explorar padrões de orquestração multiagente: Sequential, Parallel, Supervisor, Hierarchical, Group Chat e Handoff"
+            },
+            {
+              "id": "module-8-unit-3-topic-3",
+              "title": "Avaliar desafios distribuídos como falhas de nó, coordenação, controle de estado e sincronização"
+            },
+            {
+              "id": "module-8-unit-3-topic-4",
+              "title": "Implementar, em JavaScript, exemplos de comunicação entre múltiplos agentes utilizando filas de mensagens e chamadas assíncronas"
+            },
+            {
+              "id": "module-8-unit-3-topic-5",
+              "title": "Discutir casos de uso de multiagentes em ambientes corporativos (ex.: pipelines de análise, chatbots colaborativos, agentes especialistas)"
+            }
+          ]
+        },
+        {
+          "id": "module-8-unit-4",
+          "title": "Padrões de Design AI-Específicos",
+          "topics": [
+            {
+              "id": "module-8-unit-4-topic-1",
+              "title": "Aplicar padrões de Retrieval-Augmented Generation (RAG): Basic, Hybrid Search, Multi-Index e Agentic RAG"
+            },
+            {
+              "id": "module-8-unit-4-topic-2",
+              "title": "Utilizar estratégias de roteamento inteligente: Model Router e Intent-Based Routing para otimização de custo e latência"
+            },
+            {
+              "id": "module-8-unit-4-topic-3",
+              "title": "Implementar mecanismos de caching e reutilização de respostas (Semantic Cache, Prompt Cache, Response Streaming)"
+            },
+            {
+              "id": "module-8-unit-4-topic-4",
+              "title": "Incorporar mecanismos de Human-in-the-Loop (HITL) como Approval Gates, Confidence Thresholds e Audit Trails"
+            }
+          ]
+        },
+        {
+          "id": "module-8-unit-5",
+          "title": "Arquitetura Enterprise",
+          "topics": [
+            {
+              "id": "module-8-unit-5-topic-1",
+              "title": "Projetar arquiteturas completas de IA em produção, com foco em modularidade, escalabilidade e segurança"
+            },
+            {
+              "id": "module-8-unit-5-topic-2",
+              "title": "Mapear o stack completo: API Gateway → Orquestração (Kubernetes) → Serviços Compartilhados → Observabilidade"
+            },
+            {
+              "id": "module-8-unit-5-topic-3",
+              "title": "Adotar princípios de design como Loose Coupling, Clear Interfaces e Policy-Driven Control"
+            },
+            {
+              "id": "module-8-unit-5-topic-4",
+              "title": "Empregar práticas de observabilidade em IA, incluindo rastreamento de prompts, logs e métricas de performance"
+            },
+            {
+              "id": "module-8-unit-5-topic-5",
+              "title": "Discutir modelos de implantação em ambientes híbridos (Kubernetes, Serverless e Edge)"
+            },
+            {
+              "id": "module-8-unit-5-topic-6",
+              "title": "Implementação de exemplos de simulação de roteamento de modelos e controle de custos (Model Tiering)"
+            }
+          ]
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "module-9",
+      "number": 9,
+      "title": "Processamento de Dados e Fine-Tuning de Modelos",
+      "units": [
+        {
+          "id": "module-9-unit-1",
+          "title": "Quando fazer fine-tuning (decision framework)",
+          "topics": [
+            {
+              "id": "module-9-unit-1-topic-1",
+              "title": "Projetar arquiteturas completas de IA em produção, com foco em modularidade, escalabilidade e segurança"
+            },
+            {
+              "id": "module-9-unit-1-topic-2",
+              "title": "Mapear o stack completo: API Gateway → Orquestração (Kubernetes) → Serviços Compartilhados → Observabilidade"
+            },
+            {
+              "id": "module-9-unit-1-topic-3",
+              "title": "Adotar princípios de design como Loose Coupling, Clear Interfaces e Policy-Driven Control"
+            }
+          ]
+        },
+        {
+          "id": "module-9-unit-2",
+          "title": "Preparação de Datasets para Fine-Tuning",
+          "topics": [
+            {
+              "id": "module-9-unit-2-topic-1",
+              "title": "Identificar e coletar dados relevantes para o treinamento de modelos customizados"
+            },
+            {
+              "id": "module-9-unit-2-topic-2",
+              "title": "Aplicar técnicas básicas de limpeza, balanceamento e padronização de dados textuais"
+            },
+            {
+              "id": "module-9-unit-2-topic-3",
+              "title": "Estruturar datasets no formato JSONL, conforme especificações de APIs de fine-tuning"
+            },
+            {
+              "id": "module-9-unit-2-topic-4",
+              "title": "Automatizar a preparação de dados com scripts em JavaScript utilizando bibliotecas de manipulação de texto"
+            },
+            {
+              "id": "module-9-unit-2-topic-5",
+              "title": "Avaliar a importância de qualidade e diversidade dos dados no resultado final do modelo"
+            }
+          ]
+        },
+        {
+          "id": "module-9-unit-3",
+          "title": "Fine-tuning via OpenAI API (upload e train)",
+          "topics": [
+            {
+              "id": "module-9-unit-3-topic-1",
+              "title": "Compreender o processo de fine-tuning em APIs comerciais (ex.: OpenAI, Gemini)"
+            },
+            {
+              "id": "module-9-unit-3-topic-2",
+              "title": "Executar o upload de datasets e acompanhar o treinamento do modelo passo a passo"
+            },
+            {
+              "id": "module-9-unit-3-topic-3",
+              "title": "Configurar hiperparâmetros básicos e monitorar o progresso do treinamento"
+            },
+            {
+              "id": "module-9-unit-3-topic-4",
+              "title": "Implementar scripts em JavaScript para automação do processo de upload e acompanhamento do fine-tuning"
+            },
+            {
+              "id": "module-9-unit-3-topic-5",
+              "title": "Discutir boas práticas de versionamento e documentação de modelos fine-tunados"
+            }
+          ]
+        },
+        {
+          "id": "module-9-unit-4",
+          "title": "LoRA e PEFT (conceitos práticos)",
+          "topics": [
+            {
+              "id": "module-9-unit-4-topic-1",
+              "title": "Entender os princípios de Low-Rank Adaptation (LoRA) e Parameter-Efficient Fine-Tuning (PEFT)"
+            },
+            {
+              "id": "module-9-unit-4-topic-2",
+              "title": "Aplicar estratégias de fine-tuning leve para reduzir custos e acelerar o treinamento"
+            },
+            {
+              "id": "module-9-unit-4-topic-3",
+              "title": "Avaliar trade-offs entre desempenho e eficiência de parametrização"
+            },
+            {
+              "id": "module-9-unit-4-topic-4",
+              "title": "Implementar demonstrações práticas em JavaScript utilizando APIs que suportam camadas adaptativas"
+            },
+            {
+              "id": "module-9-unit-4-topic-5",
+              "title": "Comparar o comportamento de modelos full fine-tuned vs LoRA em tarefas específicas"
+            }
+          ]
+        },
+        {
+          "id": "module-9-unit-5",
+          "title": "Avaliar modelos fine-tunados",
+          "topics": [
+            {
+              "id": "module-9-unit-5-topic-1",
+              "title": "Aplicar métricas de avaliação qualitativas e quantitativas para modelos ajustados"
+            },
+            {
+              "id": "module-9-unit-5-topic-2",
+              "title": "Medir precisão, consistência e adequação das respostas em diferentes cenários"
+            },
+            {
+              "id": "module-9-unit-5-topic-3",
+              "title": "Utilizar testes A/B para comparar modelos customizados e genéricos"
+            },
+            {
+              "id": "module-9-unit-5-topic-4",
+              "title": "Implementar scripts em JavaScript para automação de testes de desempenho e logging de resultados"
+            },
+            {
+              "id": "module-9-unit-5-topic-5",
+              "title": "Discutir riscos de overfitting e perda de generalização em modelos ajustados"
+            }
+          ]
+        },
+        {
+          "id": "module-9-unit-6",
+          "title": "Projeto Final: Modelo Customizado para Domínio Específico",
+          "topics": [
+            {
+              "id": "module-9-unit-6-topic-1",
+              "title": "Planejar e desenvolver um modelo fine-tunado voltado a um domínio específico (ex.: atendimento, suporte técnico, jurídico, financeiro)"
+            },
+            {
+              "id": "module-9-unit-6-topic-2",
+              "title": "Aplicar os conceitos aprendidos de preparação de dados, ajuste e avaliação"
+            },
+            {
+              "id": "module-9-unit-6-topic-3",
+              "title": "Integrar o modelo customizado em um fluxo prático de uso, como um chatbot ou agente automatizado"
+            },
+            {
+              "id": "module-9-unit-6-topic-4",
+              "title": "Documentar e apresentar os resultados, justificando as escolhas de arquitetura e abordagem"
+            },
+            {
+              "id": "module-9-unit-6-topic-5",
+              "title": "Implementar em JavaScript um protótipo funcional que utilize o modelo treinado via API"
+            }
+          ]
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "module-10",
+      "number": 10,
+      "title": "Segurança e Governança em IA",
+      "units": [],
+      "topics": [
+        {
+          "id": "module-10-topic-1",
+          "title": "O que é Governança em IA"
+        },
+        {
+          "id": "module-10-topic-2",
+          "title": "Interpretabilidade e Explicabilidade em Modelos de IA"
+        },
+        {
+          "id": "module-10-topic-3",
+          "title": "Vieses e Responsabilidade em Modelos de IA"
+        },
+        {
+          "id": "module-10-topic-4",
+          "title": "Gerenciamento de Riscos em Inteligência Artificial - Aspectos Humanos e Éticos"
+        },
+        {
+          "id": "module-10-topic-5",
+          "title": "Gerenciamento de Riscos em Inteligência Artificial - Segurança e Dados"
+        },
+        {
+          "id": "module-10-topic-6",
+          "title": "Gerenciamento de Riscos em Inteligência Artificial - Aspectos Legais e Regulatórios"
+        },
+        {
+          "id": "module-10-topic-7",
+          "title": "Custos Financeiros em Inteligência Artificial"
+        }
+      ]
+    },
+    {
+      "id": "module-11",
+      "number": 11,
+      "title": "Projeto Integrador – Capstone Project",
+      "units": [
+        {
+          "id": "module-11-unit-1",
+          "title": "Ideação e Arquitetura do Micro-SaaS",
+          "topics": [
+            {
+              "id": "module-11-unit-1-topic-1",
+              "title": "Definição do problema e do escopo do Micro-SaaS"
+            },
+            {
+              "id": "module-11-unit-1-topic-2",
+              "title": "Análise de viabilidade: identificação do público-alvo e construção da proposta de valor"
+            },
+            {
+              "id": "module-11-unit-1-topic-3",
+              "title": "Desenho da arquitetura da solução, contemplando front-end, back-end e os componentes de IA (RAG, Agentes, Orquestração)"
+            },
+            {
+              "id": "module-11-unit-1-topic-4",
+              "title": "Planejamento do projeto: definição de milestones, backlog inicial e tecnologias (stack)"
+            }
+          ]
+        },
+        {
+          "id": "module-11-unit-2",
+          "title": "Fundamentos da Solução - RAG e Agentes",
+          "topics": [
+            {
+              "id": "module-11-unit-2-topic-1",
+              "title": "Construção do core da inteligência: implementação de um sistema de Retrieval-Augmented Generation (RAG)"
+            },
+            {
+              "id": "module-11-unit-2-topic-2",
+              "title": "Seleção e configuração de Vector Databases"
+            },
+            {
+              "id": "module-11-unit-2-topic-3",
+              "title": "Desenvolvimento do agente principal que utilizará o RAG para responder a queries complexas"
+            },
+            {
+              "id": "module-11-unit-2-topic-4",
+              "title": "Entrega 1: Protótipo funcional do sistema RAG com uma interface de linha de comando (CLI) para validação da lógica"
+            }
+          ]
+        },
+        {
+          "id": "module-11-unit-3",
+          "title": "Orquestração, Back-end e a Interface Inteligente",
+          "topics": [
+            {
+              "id": "module-11-unit-3-topic-1",
+              "title": "Desenvolvimento da integração com o back-end: criação de APIs"
+            },
+            {
+              "id": "module-11-unit-3-topic-2",
+              "title": "Implementando a Ponte IA-UI: Habilitando o Model-Context Protocol (MCP) na aplicação para expor as capacidades do serviço de forma padronizada a agentes"
+            },
+            {
+              "id": "module-11-unit-3-topic-3",
+              "title": "Orquestração de múltiplos agentes ou LLMs usando o ADK (Agent Development Kit)"
+            },
+            {
+              "id": "module-11-unit-3-topic-4",
+              "title": "Entrega 2: API do back-end documentada e funcional, e a aplicação front-end com o MCP habilitado, pronta para interação programática"
+            }
+          ]
+        },
+        {
+          "id": "module-11-unit-4",
+          "title": "Desenvolvimento do Front-End, Interação e Implantação",
+          "topics": [
+            {
+              "id": "module-11-unit-4-topic-1",
+              "title": "Desenvolvimento da interface do usuário (UI) do Micro-SaaS em Angular, já estruturada com o MCP"
+            },
+            {
+              "id": "module-11-unit-4-topic-2",
+              "title": "Integração do front-end com as APIs do back-end para consumir os serviços de IA"
+            },
+            {
+              "id": "module-11-unit-4-topic-3",
+              "title": "Validação do MCP: Utilização de ferramentas para validar que os agentes conseguem interpretar e interagir corretamente com o front-end através do protocolo"
+            },
+            {
+              "id": "module-11-unit-4-topic-4",
+              "title": "Configuração do pipeline de CI/CD e implantação da solução"
+            },
+            {
+              "id": "module-11-unit-4-topic-5",
+              "title": "Entrega 3: Solução completa implantada, com a UI principal funcional e a capacidade de demonstrar a interação de um agente com o front-end via MCP"
+            }
+          ]
+        },
+        {
+          "id": "module-11-unit-5",
+          "title": "Apresentação Final e Defesa Técnica",
+          "topics": [
+            {
+              "id": "module-11-unit-5-topic-1",
+              "title": "Estruturação da apresentação do projeto: storytelling, demonstração ao vivo e resultados alcançados"
+            },
+            {
+              "id": "module-11-unit-5-topic-2",
+              "title": "Preparação para a defesa técnica: capacidade de justificar as decisões de arquitetura, tecnologia e implementação"
+            },
+            {
+              "id": "module-11-unit-5-topic-3",
+              "title": "Finalização da documentação do projeto: README claro, diagrama de arquitetura e instruções de uso"
+            },
+            {
+              "id": "module-11-unit-5-topic-4",
+              "title": "Avaliação final com base na complexidade, funcionalidade, qualidade do código, apresentação e defesa do projeto"
+            }
+          ]
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "module-12",
+      "number": 12,
+      "title": "Carreira e Entrevistas para Engenheiros de AI Aplicada",
+      "units": [],
+      "topics": [
+        {
+          "id": "module-12-topic-1",
+          "title": "Otimização de LinkedIn para Recrutadores - Palavras-chave de IA, SSI alto, headline impactante, seção \"Sobre\" com projetos"
+        },
+        {
+          "id": "module-12-topic-2",
+          "title": "Networking Estratégico - Conectar com recrutadores e tech leads, participar de comunidades de IA, engajamento consistente"
+        },
+        {
+          "id": "module-12-topic-3",
+          "title": "Marca Pessoal e Posicionamento - Compartilhar aprendizados, artigos técnicos, projetos, posicionar-se como especialista em IA aplicada"
+        },
+        {
+          "id": "module-12-topic-4",
+          "title": "Portfólio GitHub Profissional - Projetos deployados, READMEs detalhados, código limpo, demonstrações ao vivo acessíveis"
+        },
+        {
+          "id": "module-12-topic-5",
+          "title": "Expectativas por Nível (Junior → Principal) - O que cada nível exige: escopo, autonomia, impacto, liderança técnica"
+        },
+        {
+          "id": "module-12-topic-6",
+          "title": "Preparação para Entrevistas de RH - Metodologia STAR, storytelling efetivo, alinhamento cultural, responder pontos fracos estrategicamente"
+        },
+        {
+          "id": "module-12-topic-7",
+          "title": "Expectativas Salariais e Proposta de Valor - Pesquisa de mercado, como justificar seu valor, quando mencionar números"
+        },
+        {
+          "id": "module-12-topic-8",
+          "title": "Live Coding e Problem Solving - Prática de coding interviews, pensar em voz alta, testar casos edge, otimização"
+        },
+        {
+          "id": "module-12-topic-9",
+          "title": "System Design para Sistemas de IA - Arquitetar sistemas completos, justificar trade-offs, escalabilidade, custos, resiliência"
+        },
+        {
+          "id": "module-12-topic-10",
+          "title": "Explicar Decisões Técnicas - Comunicar escolhas arquiteturais, por que escolheu determinado padrão, alternativas consideradas"
+        },
+        {
+          "id": "module-12-topic-11",
+          "title": "Perguntas Técnicas Específicas de IA - RAG vs fine-tuning, quando usar agents, otimização de custos, handling de failures"
+        },
+        {
+          "id": "module-12-topic-12",
+          "title": "Negociação Salarial Efetiva - Timing correto, âncoras salariais, múltiplas ofertas como leverage, pacote completo além do salário"
+        },
+        {
+          "id": "module-12-topic-13",
+          "title": "Pedido de Aumento/Promoção - Documentar impacto, timing estratégico, construir caso com métricas, apresentação profissional"
+        },
+        {
+          "id": "module-12-topic-14",
+          "title": "Técnicas de Diferenciação - Demonstrar projetos ao vivo, case studies de resultados, contributions open source, presença técnica"
+        }
+      ]
+    }
+  ]
+}
+

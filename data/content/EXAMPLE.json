@@ -1,0 +1,30 @@
+{
+  "id": "module-X-topic-Y",
+  "title": "Título do Tópico",
+  "content": "Aqui você pode escrever o conteúdo do tópico.\n\nPode usar múltiplas linhas e formatação básica.\n\n## Subtítulos\n\nVocê pode usar markdown básico para formatação.\n\n- Listas\n- Com itens\n- Múltiplos\n\n**Negrito** e *itálico* também funcionam.",
+  "resources": [
+    {
+      "type": "link",
+      "title": "Nome do Recurso",
+      "url": "https://exemplo.com",
+      "description": "Descrição opcional do recurso"
+    },
+    {
+      "type": "video",
+      "title": "Vídeo Tutorial",
+      "url": "https://youtube.com/watch?v=exemplo",
+      "description": "Link para vídeo"
+    },
+    {
+      "type": "document",
+      "title": "PDF ou Documento",
+      "description": "Descrição do documento (sem URL se for arquivo local)"
+    },
+    {
+      "type": "code",
+      "title": "Exemplo de Código",
+      "description": "Referência a código de exemplo"
+    }
+  ]
+}
+
