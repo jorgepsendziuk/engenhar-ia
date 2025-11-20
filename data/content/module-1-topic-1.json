@@ -11,15 +11,9 @@
     },
     {
       "type": "link",
-      "title": "Timeline da IA - Stanford",
-      "url": "https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/intelligentagent.pdf",
-      "description": "Linha do tempo acadêmica da evolução da IA"
-    },
-    {
-      "type": "video",
-      "title": "The History of Artificial Intelligence - Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=JMu5qN4x7OU",
-      "description": "Vídeo educativo sobre a evolução histórica da IA"
+      "title": "História da IA - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+      "description": "Artigo completo sobre a história da Inteligência Artificial"
     },
     {
       "type": "link",
@@ -28,9 +22,16 @@
       "description": "Explicação sobre os períodos de redução de interesse e financiamento em IA"
     },
     {
-      "type": "document",
-      "title": "The Dartmouth Conference - Original Proposal",
-      "description": "Proposta original da conferência de Dartmouth (documento histórico)"
+      "type": "link",
+      "title": "John McCarthy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)",
+      "description": "Biografia de John McCarthy, criador do termo \"Inteligência Artificial\""
+    },
+    {
+      "type": "link",
+      "title": "Timeline da IA - Computer History Museum",
+      "url": "https://www.computerhistory.org/timeline/ai-robotics/",
+      "description": "Linha do tempo interativa da evolução da IA e robótica"
     }
   ]
 }
